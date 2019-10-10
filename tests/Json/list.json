@@ -1,0 +1,17 @@
+{
+  "time": 1570726916129,
+  "blocks": [
+    {
+      "type": "list",
+      "data": {
+        "style": "unordered",
+        "items": [
+          "It is a block-styled editor",
+          "It returns clean data output in JSON",
+          "Designed to be extendable and pluggable with a simple API"
+        ]
+      }
+    }
+  ],
+  "version": "2.15.0"
+}

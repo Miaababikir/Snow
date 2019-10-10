@@ -9,7 +9,18 @@
   ],
   "require": {},
   "require-dev": {
-    "orchestra/testbench": "^4.0"
+    "orchestra/testbench": "^4.0",
+    "ext-json": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "miaababikir\\Snow\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "miaababikir\\Snow\\Tests\\": "tests/"
+    }
   },
   "description": ""
 }
