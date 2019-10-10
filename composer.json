@@ -1,0 +1,15 @@
+{
+  "name": "miaababikir/snow",
+  "type": "library",
+  "authors": [
+    {
+      "name": "miaababikir",
+      "email": "miaababikir@gmail.com"
+    }
+  ],
+  "require": {},
+  "require-dev": {
+    "orchestra/testbench": "^4.0"
+  },
+  "description": ""
+}
