@@ -1,7 +1,7 @@
 <?php
 
 
-namespace miaababikir\Snow\Tags;
+namespace Miaababikir\Snow\Tags;
 
 
 interface TagsContract

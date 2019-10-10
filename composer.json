@@ -14,12 +14,12 @@
   },
   "autoload": {
     "psr-4": {
-      "miaababikir\\Snow\\": "src/"
+      "Miaababikir\\Snow\\": "src/"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "miaababikir\\Snow\\Tests\\": "tests/"
+      "Miaababikir\\Snow\\Tests\\": "tests/"
     }
   },
   "description": ""

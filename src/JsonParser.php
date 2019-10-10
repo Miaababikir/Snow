@@ -1,7 +1,7 @@
 <?php
 
 
-namespace miaababikir\Snow;
+namespace Miaababikir\Snow;
 
 
 use Illuminate\Support\Str;
@@ -24,7 +24,7 @@ class JsonParser
 
         foreach ($blocks as $block) {
 
-            $class = 'miaababikir\\Snow\\Tags\\' . Str::plural(Str::title($block->type));
+            $class = 'Miaababikir\\Snow\\Tags\\' . Str::plural(Str::title($block->type));
             $this->html .= $class::parse($block->data);
         }
     }
